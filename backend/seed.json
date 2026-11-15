@@ -1,0 +1,21 @@
+{
+  "yards": [
+    {"id":1,"name":"Forme du Cap","port":"Marseille","description":"Bassin de carénage pour ferries et navires de service.","length":155,"beam":26,"draft":8,"type":"Cale sèche"},
+    {"id":2,"name":"Atelier des Darses","port":"Marseille","description":"Forme dédiée à la maintenance de navires industriels de moyen tonnage.","length":120,"beam":21,"draft":6,"type":"Cale sèche"},
+    {"id":3,"name":"Digue Horizon","port":"Marseille","description":"Forme de grande capacité pour navires industriels et cargos.","length":220,"beam":35,"draft":10,"type":"Cale sèche"},
+    {"id":4,"name":"Bassin de la Vigie","port":"Toulon","description":"Carénage de navires côtiers et de soutien.","length":140,"beam":24,"draft":7,"type":"Cale sèche"},
+    {"id":5,"name":"Forme du Ponant","port":"Brest","description":"Bassin pour unités hauturières et navires industriels.","length":235,"beam":38,"draft":11,"type":"Cale sèche"}
+  ],
+  "slots": [
+    {"id":1,"yard_id":1,"offset":7,"days":5},
+    {"id":2,"yard_id":1,"offset":19,"days":6},
+    {"id":3,"yard_id":2,"offset":9,"days":4},
+    {"id":4,"yard_id":2,"offset":23,"days":5},
+    {"id":5,"yard_id":3,"offset":12,"days":7},
+    {"id":6,"yard_id":3,"offset":26,"days":8},
+    {"id":7,"yard_id":4,"offset":8,"days":5},
+    {"id":8,"yard_id":4,"offset":20,"days":6},
+    {"id":9,"yard_id":5,"offset":11,"days":7},
+    {"id":10,"yard_id":5,"offset":24,"days":7}
+  ]
+}
